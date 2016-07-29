@@ -103,7 +103,9 @@ nav .container-fluid {
 p {
     font-size: 20px;
     line-height: 1.5;
-    margin-bottom: 17px
+    margin-bottom: 17px;
+    font-weight: 599;
+    /*font-color: #333;*/
 }
 
 p a:hover,
@@ -158,6 +160,7 @@ p a:focus {
     text-decoration: none
 }
 #about{
-    margin: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
