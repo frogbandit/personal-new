@@ -1,0 +1,160 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #333;
+    letter-spacing: 0.17px;
+    -webkit-font-smoothing: antialiased;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004)
+}
+
+hr {
+    margin: 20px 0
+}
+
+hr.no-margin {
+    margin: 0
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600
+}
+
+nav {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px
+}
+
+nav .title {
+    line-height: 31px;
+    font-size: 21px;
+    vertical-align: middle;
+    margin-left: 6px;
+    font-weight: 500
+}
+
+nav .navbar-nav li a {
+    color: black
+}
+
+nav .navbar-nav li a:hover {
+    text-decoration: underline
+}
+
+nav.navbar-default {
+    background-color: transparent;
+    border-color: transparent
+}
+
+nav.navbar-default .navbar-collapse {
+    border-color: transparent
+}
+
+nav.navbar-default .navbar-nav>.active>a {
+    background-color: transparent;
+    color: inherit;
+    font-weight: 600
+}
+
+nav.navbar-default .navbar-nav>.active>a:hover {
+    background-color: transparent
+}
+
+nav .navbar-brand {
+    padding: 8px 15px;
+    font-weight: 500;
+    letter-spacing: 0
+}
+
+nav .navbar-brand img {
+    width: 32px;
+    height: 32px;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    transition: all 0.2s ease
+}
+
+nav .navbar-brand:hover img {
+    box-shadow: rgba(0, 0, 0, 0.3) 0 0 9px
+}
+
+nav .navbar-brand:hover .title {
+    text-decoration: none;
+    background-image: linear-gradient(to bottom, transparent 50%, rgba(0, 0, 0, 0.6) 50%);
+    background-repeat: repeat-x;
+    background-size: 2px 2px;
+    background-position: 0 23px
+}
+
+nav.navbar {
+    margin-bottom: 0
+}
+
+nav .container-fluid {
+    padding-left: 0;
+    padding-right: 0
+}
+
+p {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 17px
+}
+
+p a:hover,
+p a:active,
+p a:focus {
+    text-decoration: none;
+    background-image: linear-gradient(to bottom, rgba(42, 100, 150, 0) 50%, rgba(42, 100, 150, 0.6) 50%);
+    background-repeat: repeat-x;
+    background-size: 2px 2px;
+    background-position: 0 21px
+}
+
+#title {
+    /*font-family: "freight-sans-pro", serif*/
+    font-family: 'Open Sans', sans-serif;
+}
+
+#title .name {
+    margin-top: 30px;
+    font-size: 48px;
+    font-weight: 400;
+}
+
+#title .description {
+    color: gray;
+    font-size: 28px;
+    font-weight: 400
+}
+
+#title .social {
+    margin-top: 12px;
+    font-size: 36px
+}
+
+#title a {
+    color: gray;
+    cursor: pointer;
+    margin: 0 10px;
+    -webkit-transition: color 0.1s ease;
+    -moz-transition: color 0.1s ease;
+    transition: color 0.1s ease
+}
+
+#title a:hover {
+    color: black
+}
+
+#title a:hover,
+#title a:active,
+#title a:focus,
+#title a:visited {
+    text-decoration: none
+}
+
