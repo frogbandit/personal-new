@@ -3,8 +3,11 @@ var express = require('express');
 var app = express();
 var server = http.createServer(app);
 var path = require("path");
+var favicon = require('serve-favicon');
 
 app.use(express.static(path.join(__dirname, 'public')));
+
+app.use(favicon(path.join(__dirname,'public','images','favicon.ico')));
 
 app.get('/',function(req, res){
   res.sendFile(path.join(__dirname+'/index.html'));
