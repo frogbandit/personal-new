@@ -22,7 +22,9 @@ h4,
 h5,
 h6 {
     font-family: 'Open Sans', sans-serif;
-    font-weight: 600
+    font-weight: 600;
+    margin-left:10px;
+    margin-right: 10px;
 }
 
 nav {
@@ -190,6 +192,15 @@ p a:focus {
 
 ul li{
      margin-bottom: 17px;
+}
+
+.projects-mobile{
+    width:100%;
+    max-width:900px;
+}
+
+.vertical{
+    max-width:300px;
 }
 
 
