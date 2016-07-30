@@ -123,10 +123,15 @@ p a:focus {
     font-family: 'Open Sans', sans-serif;
 }
 
-#title .name {
+#name-title{
     margin-top: 10px;
     font-size: 48px;
     font-weight: 400;
+}
+
+#name-title a{
+    text-decoration: none;
+    color:black;
 }
 
 #title .description {
@@ -159,8 +164,32 @@ p a:focus {
 #title a:visited {
     text-decoration: none
 }
-#about{
+#about {
     margin-left: 50px;
     margin-right: 50px;
 }
+
+#projects-text {
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 17px;
+    font-weight: 599;
+}
+
+#projects-title{
+    margin-bottom:17px;
+}
+
+#projects-subtitle{
+    /*font-style: italic;*/
+    /*color:  #A9A9A9;*/
+    text-transform: lowercase;
+}
+
+ul li{
+     margin-bottom: 17px;
+}
+
 
