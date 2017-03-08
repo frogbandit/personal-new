@@ -17,6 +17,11 @@ app.get('/projects',function(req, res){
   res.sendFile(path.join(__dirname+'/public/projects.html'));
 });
 
+app.get('/test',function(req, res){
+  res.sendFile(path.join(__dirname+'/public/test_page.html'));
+});
+
+
 var listener = server.listen(process.env.PORT || 3000, function () {
     var host = server.address().address;
     var port = server.address().port;
